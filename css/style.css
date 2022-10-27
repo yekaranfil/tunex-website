@@ -1,30 +1,32 @@
 style>
+
 a:link {
-  color: #ea4a4f;
+  color: #55d5df;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
-  color: #ea4a4f;
+  color: #55d5df;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ea4a4f;
+  color: #55d5df;
   background-color: transparent;
   text-decoration: underline;
 }
 
 a:active {
-  color: #ea4a4f;
+  color: #55d5df;
   background-color: transparent;
   text-decoration: underline;
 }
 style>
 
 body {
+  overflow: hidden;
   background: #ffffff;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -72,7 +74,7 @@ hr {
 }
 
 .section-title strong {
-  color: #ea4a4f;
+  color: #55d5df;
   font-size: 56px;
 }
 
@@ -269,16 +271,16 @@ preloader section
 navigation section
 ========================================================================== */
 .custom-navbar {
-  background: #4b4b4b;
+  background: #324f63;
   margin-bottom: 0;
 }
 .custom-navbar .navbar-brand {
-  color: #ea4a4f;
+  color: #55d5df;
   font-weight: 600;
   font-size: 24px;
 }
 .custom-navbar .navbar-brand .navbar-toggle {
-  background: #ea4a4f;
+  background: #192c61;
   padding: 4px 6px;
   font-size: 16px;
   color: #fff;
@@ -298,14 +300,14 @@ navigation section
   outline: none;
 }
 .custom-navbar .nav li.active > a {
-  color: #ea4a4f;
+  color: #12e4d9;
 }
 .custom-navbar .navbar-toggle {
   border: none;
   padding-top: 10px;
 }
 .custom-navbar .navbar-toggle .icon-bar {
-  background: #ea4a4f;
+  background: #55d5df;
   border-color: transparent;
 }
 @media (min-width: 768px) {
@@ -317,7 +319,7 @@ navigation section
   }
   .custom-navbar.top-nav-collapse {
     padding: 8px;
-    background: #4b4b4b;
+    background: #0f232e;
   }
 }
 
@@ -339,12 +341,16 @@ home section
 }
 #home h1 {
   font-size: 80px;
+  margin-left: 14px;
 }
 #home h3 {
-  font-size: 14px;
+  font-size: 12px;
+  margin-left: 14px;
 }
 #home hr {
-  width: 240px;
+  width: 340px;
+  
+
 }
 #home .btn {
   background: transparent;
@@ -360,12 +366,14 @@ home section
   transition: all 0.4s ease-in-out;
 }
 #home .btn:hover {
-  background: #ea4a4f;
+  background: #55d5df;
   border-color: transparent;
+  color: #000000;
 }
 #home .btn-danger {
-  background: #ea4a4f;
+  background: #55d5df;
   border-color: transparent;
+  color: #000000;
 }
 #home .btn-danger:hover {
   border: 4px solid #ffffff;
@@ -379,6 +387,8 @@ work section
 ========================================================================== */
 #work {
   text-align: center;
+  background: #000e19;
+  color: #ffffff;
 }
 #work .col-md-4 {
   padding: 28px;
@@ -386,7 +396,7 @@ work section
   transition: all 0.4s ease-in-out;
 }
 #work .col-md-4:hover {
-  background-color: #ffffff;
+  background-color: #201c1c;
   box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.2);
 }
 #work h3 {
@@ -422,7 +432,7 @@ about section
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: #ea4a4f;
+  color: #55d5df;
   cursor: default;
   background-color: transparent;
   border: 1px solid transparent;
@@ -433,12 +443,12 @@ about section
 }
 
 .tab-content a {
-  color: #ea4a4f;
+  color: #55d5df;
 }
 
 .tab-content a:hover,
 .tab-content a:link {
-  color: #ea4a4f;
+  color: #55d5df;
   text-decoration: none;
 }
 
@@ -450,7 +460,7 @@ team section
   text-align: center;
 }
 #team h3 {
-  color: #ea4a4f;
+  color: #55d5df;
   font-size: 14px;
   font-weight: bold;
 }
@@ -503,14 +513,15 @@ team section
 }
 
 #team .social-icon li a:hover {
-  color: #ea4a4f;
+  color: #55d5df;
 }
 
 /* ==========================================================================
 portfolio section
 ========================================================================== */
 #portfolio {
-  background-color: #f6f6f6;
+ 
+  background-color: #ffffff;
   text-align: center;
 }
 #portfolio .container {
@@ -552,7 +563,7 @@ portfolio section
 }
 .filter-wrapper li a:focus,
 .filter-wrapper li a:hover {
-  color: #ea4a4f;
+  color: #55d5df;
   outline: none;
 }
 
@@ -741,7 +752,7 @@ footer p {
   transition: all 0.4s ease-in-out;
 }
 .social-icon li a:hover {
-  color: #ea4a4f;
+  color: #55d5df;
 }
 
 @media screen and (min-width: 992px) {

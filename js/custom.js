@@ -83,8 +83,10 @@ $(function () {
   $(function () {
     jQuery(document).ready(function () {
       $("#home").backstretch(
-        ["images/home-bg-slideshow2.webp"],
-        { duration: 3000, fade: 750 }
+        ["images/home-bg-slideshow2.jpg","images/home-bg-slideshow3.jpg"],
+        { duration: 2500, fade: 2000}
+        
+        
       );
     });
   });
